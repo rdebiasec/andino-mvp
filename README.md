@@ -55,6 +55,8 @@ El backend expone los siguientes scripts adicionales:
 - `GET /api/v1/cases` → Lista paginada de casos en memoria (`?page` y `?pageSize`)
 - `GET /api/v1/docs` → Swagger UI con la especificación OpenAPI
 
+> ℹ️ ¿Necesitas todas las firmas públicas, funciones y componentes documentados en detalle? Consulta `docs/API_REFERENCE.md` para una guía exhaustiva con ejemplos de uso.
+
 ### Ejemplos `curl`
 ```bash
 curl -X GET http://localhost:4000/api/v1/health
